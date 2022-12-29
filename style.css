@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to left, rgba(209, 206, 10, 0.897), rgba(102, 170, 81, 0.493));
+    
+    
+}
+
+.mainclass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20vh;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    padding: 8vh 10vw;
+    background-color: rgba(95, 101, 102, 0.568);
+}
+
+.app-form-data p {
+    font-size: 1.5rem;
+}
+
+.topleft {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 20vw;
+    font-size: 2rem;
+}
+
+.topright {
+    display: flex;
+    flex-direction: column;
+}
+
+.topright input {
+    font-size: 1.5rem;
+    margin: 10px;
+    text-align: center;
+}
+
+.topright .button {
+    text-align: center;
+}
+
+.app-form-button {
+    padding: 10px 50px;
+    border-radius: 2px;
+    border: none;
+}
